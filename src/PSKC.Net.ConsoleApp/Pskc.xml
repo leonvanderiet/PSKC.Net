@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<KeyContainer Version="1.0" xmlns ="urn:ietf:params:xml:ns:keyprov:pskc">
+  <KeyPackage>
+    <DeviceInfo>
+      <Manufacturer>Acme Token Manufactory</Manufacturer>
+      <SerialNo>1000000000001</SerialNo>
+    </DeviceInfo>
+    <Key Id="1000000000001" Algorithm="urn:ietf:params:xml:ns:keyprov:pskc:hotp">
+      <AlgorithmParameters>
+        <ResponseFormat Length="6" Encoding="DECIMAL"/>
+      </AlgorithmParameters>
+      <Data>
+        <Secret>
+          <PlainValue>ytwYn6zOU/KMdCwqjYH0I4Kq4Kc=</PlainValue>
+        </Secret>
+        <Counter>
+          <PlainValue></PlainValue>
+        </Counter>
+      </Data>
+      <Policy>
+        <StartDate>2018-10-01T00:00:00Z</StartDate>
+        <ExpiryDate>2023-10-12T00:00:00Z</ExpiryDate>
+      </Policy>
+    </Key>
+  </KeyPackage>
+  <KeyPackage>
+    <DeviceInfo>
+      <Manufacturer>Acme Token Manufactory</Manufacturer>
+      <SerialNo>1000000000002</SerialNo>
+    </DeviceInfo>
+    <Key Id="1000000000002" Algorithm="urn:ietf:params:xml:ns:keyprov:pskc:hotp">
+      <AlgorithmParameters>
+        <ResponseFormat Length="6" Encoding="DECIMAL"/>
+      </AlgorithmParameters>
+      <Data>
+        <Secret>
+          <PlainValue>mYh3ZlVEMyIRAP/u3cy7qg==</PlainValue>
+        </Secret>
+        <Counter>
+          <PlainValue></PlainValue>
+        </Counter>
+      </Data>
+      <Policy>
+        <StartDate>2018-10-01T00:00:00Z</StartDate>
+        <ExpiryDate>2023-10-12T00:00:00Z</ExpiryDate>
+      </Policy>
+    </Key>
+  </KeyPackage>
+</KeyContainer>

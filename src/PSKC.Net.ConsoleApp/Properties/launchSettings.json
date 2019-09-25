@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PSKC.Net.ConsoleApp": {
+      "commandName": "Project",
+      "commandLineArgs": "-f Pskc.xml"
+    }
+  }
+}
