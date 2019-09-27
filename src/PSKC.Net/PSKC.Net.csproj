@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Leon</Authors>
+    <Company>Van de Riet IT Solutions</Company>
   </PropertyGroup>
 
 </Project>
