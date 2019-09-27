@@ -4,6 +4,16 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Leon</Authors>
     <Company>Van de Riet IT Solutions</Company>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/leonvanderiet/PSKC.Net</PackageProjectUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
