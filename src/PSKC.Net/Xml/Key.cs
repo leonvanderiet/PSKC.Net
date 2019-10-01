@@ -17,6 +17,9 @@ namespace PSKC.Net.Xml
         [XmlElement]
         public Data Data;
 
+        [XmlElement] 
+        public string UserId;
+
     }
 
     public class AlgorithmParameters

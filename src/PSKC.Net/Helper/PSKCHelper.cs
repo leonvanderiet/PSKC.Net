@@ -52,5 +52,13 @@ namespace PSKC.Net.Helper
             }
             return null;
         }
+
+    
+        public static KeyContainer ToKeyContainer(Stream data)
+        {
+            var serializer = new System.Xml.Serialization.XmlSerializer(typeof(KeyContainer));
+            var keyContainer = (KeyContainer)serializer.Deserialize(data);
+            return keyContainer;
+        }
     }
 }
